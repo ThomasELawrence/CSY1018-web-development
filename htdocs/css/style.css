@@ -22,13 +22,14 @@ body {
   font-size: 3.0em;
   margin: 0px;
 }
-.image {
+.bio-image {
   width: 300px;
   height: 250px;
-  display: flex;
-  justify-content: center;
 }
-
+.index-image {
+  width: 220px;
+  height: 300px
+}
 form {
   margin: 0 auto;
   width: 400px;
