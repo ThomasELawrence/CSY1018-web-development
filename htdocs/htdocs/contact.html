@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--Thomas Lawrence 16436278-->
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1 class="Page-titles">Contacting me</h1>
+    <p class="links"><a href="index.html">Home</a>
+    <a href="cv.html">My CV</a>
+    <a href="bio.html">About Me</a>
+    <a href="contact.html">Contact Me</a></p>
+    <p>If you wish to contact me then please leave a few details and a message on the reason for the contact.</p>
+    <!--https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms-->
+    <form action="index.html" method="post">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+      </div>
+      <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail" />
+      </div>
+      <div>
+        <label for="msg">Meassage:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
